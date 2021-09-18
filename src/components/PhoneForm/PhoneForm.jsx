@@ -22,7 +22,6 @@ function PhoneForm({ onSubmit }) {
   const addToContacts = (e) => {
     e.preventDefault();
     const data = { name, number };
-    console.log(data);
     onSubmit(data);
     resetForm();
   };
